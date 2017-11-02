@@ -14,7 +14,28 @@ EconomyAirportのNukkitバージョン。
 [こちら](https://forums.nukkit.io/resources/economyapi.26/)のプラグインが前提です。
 
 
-###### commands
-```/setwarp <WarpName>```  今立ってる場所がワープ地点:<WarpNane>になります。
+##### commands
+ゲーム内でのみ実行可能。
+```/setwarp <WarpName>```  今立ってる場所がワープ地点:```<WarpNane>```になります。
 
-```/deltwarp <WarpName>```
+```/deltwarp <WarpName>```　ワープ地点：```<WarpName>```を削除します。
+
+##### Signs
+サーバーのOPはこれに従ってワープ看板を設置できます。
+また、鯖民はこの看板タップする事で、3行目に記載された通りのEconomyMoneyを払って2行目に記載された行先へワープすることができます。
+
+OPが書く看板：
+```
+[WARP]
+<WarpName>
+<運賃>
+好きな説明
+```
+
+間違っている形式でなければ以下のようになります：
+```
+[WARP]
+行先：<WarpName>
+移動料金¥<運賃>
+§f好きな説明
+```
