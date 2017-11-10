@@ -1,4 +1,4 @@
-# NukkitPlugins
+﻿# NukkitPlugins
 ライセンスはああなってるけど、基本的に再配布は許可制で。
 
 ©CopyLight [gamesukimanIRS](https://www.twitter.com/gamesukimanIRS) All Rights Reversed
@@ -12,10 +12,11 @@
 尚、許可制とし、許可あれば行っていいものとします。
 
 - EconomyAirportNukkitJapanVersion
+- RankPlugin
 
 ### EconomyAirportNukmitJapanVersion
 EconomyAirportのNukkitバージョン。
-彩須県サーバー(Jupiter)向けに製作致しました。
+彩須県サーバー(Nukkit)向けに製作致しました。
 
 [こちら](https://forums.nukkit.io/resources/economyapi.26/)のプラグインが前提です。
 
@@ -65,4 +66,22 @@ OPが書く看板：
 ￥<運賃>を消費してワープ地点にワープします。0と書けば消費されません。
 
 - 好きな説明
-書いても書かなくても大丈夫ですが、書いた場合自動で戦闘に§fが付くため、看板の文字数制限を気にする必要はありません。
+書いても書かなくても大丈夫ですが、書いた場合自動で先頭に§fが付くため、看板の文字数制限を気にする必要はありません。
+
+### RankPlugin
+コマンドで称号を決められるプラグイン。
+採須県Server(Nukkit)向けに製作致しました。
+
+Configに称号を保存します。
+また、サーバーにログイン/ログアウトする時のメッセージを若干変更します。
+また、初めてサーバーに入った人には「鯖民」という称号と、サーバー全体に新参さんがログインしたことが伝えられます。
+
+##### commands
+コンソールでも実行可能。
+
+```/setrank <名前(フルネーム)> <称号>``` <名前>さんの称号を<称号>に変更します。
+```/ranksarch <名前(フルネーム)>``` <名前>さんの称号を調べます。
+
+##### Configs
+- rank.yml
+その人の称号データです。

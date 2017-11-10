@@ -1,0 +1,20 @@
+name: RankPlugin
+main: rank.plugin.rankplugin.Main
+version: 1.0.0
+author: gamesukimanIRS
+api: ["1.0.0"]
+commands:
+  setrank:
+    description: 称号セット(権限者専用)
+    usage: "/setrank <プレイヤー名> <新しい称号>"
+    permission: setrank.cmd
+  rankserch:
+    description: その人が使っている称号を調べます。
+    usage: "/rankserch <プレイヤー名>"
+    permission: rankserch.cmd
+    
+  permissons:
+    setrank.cmd:
+      default: op
+    rankserch.cmd:
+      default: true
