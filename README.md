@@ -11,12 +11,18 @@
 
 尚、許可制とし、許可あれば行っていいものとします。
 
+- PluginEnableDisablerNukkit
+- FireCancelld
 - EconomyAirportNukkitJapanVersion
 - RankPlugin
 
+### PluginEnableDisablerNukkit
+PMMPにあったやつのNukkitバージョンです。/enable <PluginName>と/disable <PluginName>で同じように使えます。  
+<font color="Red"Warning!</font>
+
 ### EconomyAirportNukmitJapanVersion
 EconomyAirportのNukkitバージョン。
-彩須県サーバー(Nukkit)向けに製作致しました。
+採須県サーバー(Nukkit)向けに製作致しました。
 
 [こちら](https://forums.nukkit.io/resources/economyapi.26/)のプラグインが前提です。
 
