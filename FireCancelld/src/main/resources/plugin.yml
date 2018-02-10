@@ -1,0 +1,5 @@
+name: FireCancelld
+main: gamesukimanirs.firecancelld.plugin.Main
+version: 1.0.0
+author: gamesukimanIRS
+api: ["1.0.0"]

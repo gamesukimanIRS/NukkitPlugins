@@ -1,0 +1,15 @@
+name: PluginEnableDisblerNukkit
+main: gamesukimanirs.pluginenabledisabler.plugin.Main
+version: 1.0.0
+author: gamesukimanIRS
+api: ["1.0.0"]
+commands:
+  enable:
+    Usage: /enable <PluginName>
+    permission: enable.cmd
+  disable:
+    Usage: /disable <pluginName>
+    permission: disable.cmd
+  permissions:
+    enable.cmd: op
+    disable.cmd: op
