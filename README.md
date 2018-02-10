@@ -18,7 +18,8 @@
 
 ### PluginEnableDisablerNukkit
 PMMPにあったやつのNukkitバージョンです。/enable <PluginName>と/disable <PluginName>で同じように使えます。  
-<font color="Red"Warning!</font>
+__**Warning!**__
+  コマンドの権限設定は動作しておりません。公開サーバーに導入する場合、他プラグインで権限設定を確実にしてください。
 
 ### EconomyAirportNukmitJapanVersion
 EconomyAirportのNukkitバージョン。
