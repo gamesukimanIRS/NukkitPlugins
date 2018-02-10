@@ -18,8 +18,11 @@
 
 ### PluginEnableDisablerNukkit
 PMMPにあったやつのNukkitバージョンです。/enable <PluginName>と/disable <PluginName>で同じように使えます。  
-__**Warning!警告!**__  
-コマンドの権限設定は動作しておりません。公開サーバーに導入する場合、他プラグインで権限設定を確実にしてください。
+**Warning!警告!**
+コマンドの権限設定は動作しておりません。公開サーバーに導入する場合、他プラグインで権限設定を確実にしてください。  
+  
+### FireCancelld
+火打石を完全に無効化します。雷も無効化します。火災系をほぼ無効化します。Cancelledのeが抜けてるのは~~仕様です~~**誤字です**
 
 ### EconomyAirportNukmitJapanVersion
 EconomyAirportのNukkitバージョン。
