@@ -1,5 +1,5 @@
 name: EconomyAirportNukkitJapanVersion
-main: economyairport.nukkitjapanversion.economyairportnukkitjapanversion.Main
+main: gamesukimanirs.economyairportnukkitjapanversion.Main
 version: 1.0.0
 author: gamesukimanIRS
 api: ["1.0.0"]
@@ -8,14 +8,10 @@ commands:
     description: 新規ワープを作成
     usage: "/setwarp WarpName"
     permission: setwarp.cmd
+    default: op
 
   delwarp:
     description: ワープを削除
     usage: "/delwarp WarpName"
     permission: delwarp.cmd
-    
-  permissons:
-    setwarp.cmd:
-      default: op
-    delwarp.cmd:
-      default: op
+    default: op
