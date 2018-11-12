@@ -1,7 +1,7 @@
 ﻿# NukkitPlugins
 ライセンスはああなってるけど、基本的に再配布は許可制で。
 
-©CopyLight [gamesukimanIRS](https://www.twitter.com/gamesukimanIRS) All Rights Reversed
+©CopyLight [gamesukimanIRS](https://www.twitter.com/gamesukiman_sub) All Rights Reversed
 
 
 
